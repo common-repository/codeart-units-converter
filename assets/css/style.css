@@ -1,0 +1,89 @@
+.CodeArtUnitsConverterContainer {}
+
+.CodeArtUnitsConverterContainer table tbody td,
+.CodeArtUnitsConverterContainer table tbody th {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.CodeArtUnitsConverterContainer table td,
+.CodeArtUnitsConverterContainer table th {
+    padding: .4em;
+    text-align: left;
+    border-right: 1px dotted rgba(0, 0, 0, 0.1);
+}
+
+.CodeArtUnitsConverterContainer * {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.CodeArtUnitsConverterContainer td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.CodeArtUnitsConverterContainer table {
+    border-spacing: 0;
+    /* width: 100%; */
+    border-collapse: separate;
+    margin-bottom: 1.5em;
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    /* border-spacing: 2px; */
+    border-color: gray;
+}
+
+.CodeArtUnitsConverterContainer td:nth-child(1),
+.CodeArtUnitsConverterContainer td:nth-child(3) {
+    color: #6ec1e4;
+    font-family: Roboto, Sans-serif;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.CodeArtUnitsConverterContainer td:nth-child(3),
+.CodeArtUnitsConverterContainer td:nth-child(4) {
+    text-align: center;
+}
+
+.CodeArtUnitsConverterContainer .btn {
+    color: #2c2f34;
+    background-color: #ffffff;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bold;
+    border: 1px solid #E5E5E5;
+}
+
+.CodeArtUnitsConverterContainer tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+.CodeArtUnitsConverterContainer tr:nth-child(even) input[type='number'] {
+    background-color: #f7f7f7;
+}
+
+.CodeArtUnitsConverterContainer input[type='number'] {
+    width: 100% !important;
+    height: 30px !important;
+}
+
+
+/* rtl support start */
+
+.CodeArtUnitsConverterContainer table [dir=rtl] {
+    direction: rtl;
+}
+
+.CodeArtUnitsConverterContainer td:nth-child(1) [dir=rtl] {
+    text-align: right;
+}
+
+
+/* rtl support end */
